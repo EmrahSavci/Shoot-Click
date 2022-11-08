@@ -1,0 +1,283 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'tr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/YEDEKLER/Shoot-Click/Shoot Click
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50077
+Successfully changed project path to: D:/YEDEKLER/Shoot-Click/Shoot Click
+D:/YEDEKLER/Shoot-Click/Shoot Click
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 65.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/YEDEKLER/Shoot-Click/Shoot Click/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   27.21.14.6275
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005511 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 66.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\YEDEKLER\Shoot-Click\Shoot Click\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\YEDEKLER\Shoot-Click\Shoot Click\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (910ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3836.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 3.222400 ms (FindLiveObjects: 0.297000 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.726400 ms  DeleteObjects: 0.109200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1594169.389016 seconds.
+  path: Assets/FattyPolyTurretFree/Scenes
+  artifactKey: Guid(9ce5a2c91c1c2a74285ed15396b38d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Scenes using Guid(9ce5a2c91c1c2a74285ed15396b38d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717e9c254adb4fa4c5f03e5ca79a39cd') in 0.010848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.853595 seconds.
+  path: Assets/FattyPolyTurretFree/Scenes/FattyPolyMortar_Free.unity
+  artifactKey: Guid(7fe99ad70d5deb343b46ac3ea95af528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Scenes/FattyPolyMortar_Free.unity using Guid(7fe99ad70d5deb343b46ac3ea95af528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11453948d6f45b04a0c469c90886a8f1') in 0.005977 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003266 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\YEDEKLER\Shoot-Click\Shoot Click\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\YEDEKLER\Shoot-Click\Shoot Click\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (834ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3839.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 2.976300 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.551500 ms  DeleteObjects: 0.093200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.212880 seconds.
+  path: Assets/FattyPolyTurretFree/Scenes/FattyPolyMortar_Free
+  artifactKey: Guid(b44d7dd5b26280349a1c874389286a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Scenes/FattyPolyMortar_Free using Guid(b44d7dd5b26280349a1c874389286a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a46415bbf827e7fcd7a6da53d00867') in 0.014011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066055 seconds.
+  path: Assets/FattyPolyTurretFree/Scenes/FattyPolyMortar_Free/LightingData.asset
+  artifactKey: Guid(ef1eb2e4aacf1644ca4b258ddc237a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Scenes/FattyPolyMortar_Free/LightingData.asset using Guid(ef1eb2e4aacf1644ca4b258ddc237a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc422c6390fe56c19bd6820c85a0f0b') in 0.034524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.176573 seconds.
+  path: Assets/FattyPolyTurretFree/Readme.txt
+  artifactKey: Guid(6a5e4cece3ea82d49b256521f6da3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Readme.txt using Guid(6a5e4cece3ea82d49b256521f6da3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02616f9c6cc309735d56093590f3adfd') in 0.010260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.706345 seconds.
+  path: Assets/FattyPolyTurretFree/Meshs
+  artifactKey: Guid(b76cf367518178c419a722f132745fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Meshs using Guid(b76cf367518178c419a722f132745fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ff53fd2425cae1397a427baa13ad44') in 0.005818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.403210 seconds.
+  path: Assets/FattyPolyTurretFree/Meshs/Bullet00.FBX
+  artifactKey: Guid(b3b36bdff47225d478f6348be07f369e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Meshs/Bullet00.FBX using Guid(b3b36bdff47225d478f6348be07f369e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3805f33b24581e34a20ac002b89f66') in 0.277019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FattyPolyTurretFree/Meshs/MortarG_Plate00.FBX
+  artifactKey: Guid(8ef7db82183638f4aaf40cecc5e17364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Meshs/MortarG_Plate00.FBX using Guid(8ef7db82183638f4aaf40cecc5e17364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b0695104e1d45727f7dbd2b41f4810') in 0.049982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FattyPolyTurretFree/Meshs/MortarG_Barrel02.FBX
+  artifactKey: Guid(297af77b153fce74da7ab46e9cc43a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FattyPolyTurretFree/Meshs/MortarG_Barrel02.FBX using Guid(297af77b153fce74da7ab46e9cc43a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e636f968363bbd380e7f412b894b02') in 0.028462 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
